@@ -31,7 +31,30 @@
         <h1>
 <a id="arduino-helpers" class="anchor" href="#arduino-helpers" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>arduino-helpers</h1>
 
-<p>A set of arduino libraries for easily handling components</p>
+<p>A set of Arduino libraries for easily components handling</p>
+
+<h2>
+<a id="purpose" class="anchor" href="#purpose" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Purpose</h2>
+
+<p>The idea of this project is to centralize several submodules I am working with, that lets any developer to deal with some
+electronic components (Arduino compatible) in a higher level manner. So, for example, instead of being thinking of "sending a HIGH to a digital output",
+a developer should think of:</p>
+
+<ol>
+<li>Create an instance of a particular component <code>LED led = LED(ledPin);</code>
+</li>
+<li>Lights on: <code>led.on();</code>
+</li>
+</ol>
+
+<p>By thinking the components helpers as <em>instanceable</em> classes, then the components are variables that can be passed as parameters in methods, allowing the developers to write smart code for building their projects.</p>
+
+<p>Take a look at each submodule documentation for a quick start.</p>
+
+<h2>
+<a id="spirit" class="anchor" href="#spirit" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Spirit</h2>
+
+<p>By creating an Open Source project, and putting some basic examples, I'm intending to get other helpers by contributors and put these all together within this project.</p>
       </section>
     </div>
 

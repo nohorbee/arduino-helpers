@@ -1,6 +1,6 @@
 {
   "name": "Arduino-helpers",
   "tagline": "A set of arduino libraries for easily handling components",
-  "body": "# arduino-helpers\r\nA set of arduino libraries for easily handling components\r\n",
+  "body": "# arduino-helpers\r\nA set of Arduino libraries for easily components handling\r\n\r\n## Purpose\r\nThe idea of this project is to centralize several submodules I am working with, that lets any developer to deal with some\r\nelectronic components (Arduino compatible) in a higher level manner. So, for example, instead of being thinking of \"sending a HIGH to a digital output\",\r\na developer should think of:\r\n\r\n1. Create an instance of a particular component `LED led = LED(ledPin);`\r\n2. Lights on: `led.on();`\r\n\r\nBy thinking the components helpers as *instanceable* classes, then the components are variables that can be passed as parameters in methods, allowing the developers to write smart code for building their projects.\r\n\r\nTake a look at each submodule documentation for a quick start.\r\n\r\n## Spirit\r\n\r\nBy creating an Open Source project, and putting some basic examples, I'm intending to get other helpers by contributors and put these all together within this project.",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
